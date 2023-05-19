@@ -9,7 +9,7 @@ android {
         config {
             keyAlias 'KotlinSimple'
             keyPassword '123456'
-            storeFile file('G:/net/KotlinSimple.jks')
+            storeFile file('D:/kotlin_app/KotlinSimple.jks')
             storePassword '123456'
         }
     }

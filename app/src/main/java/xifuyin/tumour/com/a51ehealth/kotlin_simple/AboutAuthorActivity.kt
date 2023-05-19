@@ -12,7 +12,7 @@ class AboutAuthorActivity : BaseActivity() {
     override fun getLayout(): Int = R.layout.activity_about_layout
 
     override fun initListener() {
-        mWebView.loadUrl("https://github.com/XiFanYin")
+
     }
 
 

@@ -24,7 +24,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:background="?attr/selectableItemBackground"
-            android:text="XiFanYin"
+            android:text="用户"
             android:textColor="#FFFFFF"
             android:textSize="13sp" />
     </LinearLayout>

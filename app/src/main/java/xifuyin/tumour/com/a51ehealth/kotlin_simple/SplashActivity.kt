@@ -33,9 +33,9 @@ class SplashActivity : BaseActivity() {
     //设置监听的方法
     override fun initListener() {
         //设置字体显示样式
-        tv_app_name.typeface = textTypeface
-        author.typeface = textTypeface
-        tv_splash_desc.typeface = descTypeFace
+//        tv_app_name.typeface = textTypeface
+//        author.typeface = textTypeface
+//        tv_splash_desc.typeface = descTypeFace
 
         //渐变展示启动屏
         alphaAnimation.duration = 2000

@@ -4,7 +4,7 @@ import android.app.Application
 import com.scwang.smartrefresh.layout.SmartRefreshLayout
 import com.scwang.smartrefresh.layout.footer.ClassicsFooter
 import com.scwang.smartrefresh.layout.header.ClassicsHeader
-import com.squareup.leakcanary.LeakCanary
+//import com.squareup.leakcanary.LeakCanary
 import com.umeng.analytics.MobclickAgent
 import com.umeng.commonsdk.UMConfigure
 import com.umeng.socialize.PlatformConfig
@@ -36,10 +36,10 @@ class App : Application() {
         super.onCreate()
         initUmeng()
         application = this
-        if (LeakCanary.isInAnalyzerProcess(this)) {
-            return;
-        }
-        LeakCanary.install(this);
+//        if (LeakCanary.isInAnalyzerProcess(this)) {
+//            return;
+//        }
+//        LeakCanary.install(this);
 
 
     }
